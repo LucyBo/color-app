@@ -15,6 +15,7 @@ export default class Navbar extends Component {
     this.state = {format: "hex", open:"false"};
     this.handleFormatChange = this.handleFormatChange.bind(this);
     this.closeSnackbar = this.closeSnackbar.bind(this);
+
   }
   handleFormatChange(e) {
     this.setState({format: e.target.value, open:true});
@@ -24,7 +25,7 @@ export default class Navbar extends Component {
     this.setState({open: false});
   }
   render() {
-    const {level, changeLevel} = this.props;
+    const {level, changeLevel, showingAllColors} = this.props;
     const {format} = this.state;
     return (
       <header className="Navbar">
@@ -33,7 +34,9 @@ export default class Navbar extends Component {
           reactcolorpicker
           </Link>
         </div>
-        <div className="slider-container">
+        
+        {showingAllColors && 
+          <div className="slider-container">
           <span>Level: {level} </span>
           <div className="slider">
             <Slider 
@@ -45,6 +48,7 @@ export default class Navbar extends Component {
             />
           </div>
         </div>
+        }
         <div className="select-container">
           <Select value={format} onChange={this.handleFormatChange}>
             <MenuItem value="hex">HEX - #ffffff</MenuItem>
