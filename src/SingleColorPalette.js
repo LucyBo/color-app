@@ -53,4 +53,4 @@ class SingleColorPalette extends Component {
     );
   }
 }
-export default withStyles(styles)(SingleColorPalette);
+export default withStyles(styles)(SingleColorPalette); 
