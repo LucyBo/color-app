@@ -1,6 +1,5 @@
 import chroma from "chroma-js";
 import sizes from "./sizes";
-
 export default {
   ColorBox: {
     width: "20%",
@@ -15,7 +14,7 @@ export default {
     },
     [sizes.down("lg")]: {
       width: "25%",
-      height: props => (props.showingFullPalette ? "20%" : "33,33333%")
+      height: props => (props.showingFullPalette ? "20%" : "33.3333%")
     },
     [sizes.down("md")]: {
       width: "50%",
@@ -71,7 +70,6 @@ export default {
   },
   boxContent: {
     position: "absolute",
-
     width: "100%",
     left: "0px",
     bottom: "0px",
