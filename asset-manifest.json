@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/color-app/static/css/main.b71dfdf7.chunk.css",
+    "main.js": "/color-app/static/js/main.e30c77d9.chunk.js",
+    "main.js.map": "/color-app/static/js/main.e30c77d9.chunk.js.map",
+    "runtime~main.js": "/color-app/static/js/runtime~main.6ad3c9d6.js",
+    "runtime~main.js.map": "/color-app/static/js/runtime~main.6ad3c9d6.js.map",
+    "static/css/2.292c8731.chunk.css": "/color-app/static/css/2.292c8731.chunk.css",
+    "static/js/2.b9b66919.chunk.js": "/color-app/static/js/2.b9b66919.chunk.js",
+    "static/js/2.b9b66919.chunk.js.map": "/color-app/static/js/2.b9b66919.chunk.js.map",
+    "index.html": "/color-app/index.html",
+    "precache-manifest.9ac8a59958aaf41917e83e0b4ccf411c.js": "/color-app/precache-manifest.9ac8a59958aaf41917e83e0b4ccf411c.js",
+    "service-worker.js": "/color-app/service-worker.js",
+    "static/css/2.292c8731.chunk.css.map": "/color-app/static/css/2.292c8731.chunk.css.map",
+    "static/css/main.b71dfdf7.chunk.css.map": "/color-app/static/css/main.b71dfdf7.chunk.css.map",
+    "static/media/bg.svg": "/color-app/static/media/bg.0f691328.svg"
+  }
+}
